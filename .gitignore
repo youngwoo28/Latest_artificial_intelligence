@@ -1,3 +1,11 @@
-0919_cursor_test/venv/
-0919_cursor_test/__pycache__/
-0919_cursor_test/.env
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
