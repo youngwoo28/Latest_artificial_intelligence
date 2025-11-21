@@ -1,0 +1,14 @@
+# 🔒 환경 변수 파일 (절대 공개 금지)
+.env
+
+# 🧠 Python 가상환경 (Mac/Windows/Linux)
+venv/
+env/
+.myenv/
+__pycache__/
+*.pyc
+
+# 📦 IDE / OS 불필요한 파일
+.DS_Store
+.vscode/
+.idea/

@@ -43,6 +43,16 @@ response = llm.invoke("지구의 자전 주기는?")
 print("💬 응답:", response.content)
 
 
+
+
+
+
+
+
+
+
+
+
 # ===============================
 # 4. 예제 3.2 — 프롬프트 템플릿 적용
 # ===============================
@@ -55,6 +65,16 @@ prompt = ChatPromptTemplate.from_template(
 chain = prompt | llm
 response = chain.invoke({"input": "지구의 자전 주기는?"})
 print("💬 응답:", response.content)
+
+
+
+
+
+
+
+
+
+
 
 
 # ===============================
@@ -70,6 +90,15 @@ chain = prompt | llm | output_parser
 
 response = chain.invoke({"input": "지구의 자전 주기는?"})
 print("💬 응답:", response)
+
+
+
+
+
+
+
+
+
 
 
 # ===============================
@@ -90,6 +119,15 @@ chain2 = ({"english_word": chain1} | prompt2 | llm | StrOutputParser())
 
 response = chain2.invoke({"korean_word": "미래"})
 print("💬 응답:", response)
+
+
+
+
+
+
+
+
+
 
 
 # ===============================
