@@ -1,7 +1,7 @@
 # LangChain 예제 프로젝트
 
 이 프로젝트는 LangChain을 사용한 다양한 예제들을 포함합니다.
-
+ 
 ## 파일 구조
 
 - `openai_tool.py` - OpenAI Function Calling을 사용한 도구 선택 예제
