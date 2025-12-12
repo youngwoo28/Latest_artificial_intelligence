@@ -10,7 +10,7 @@
 - `requirements.txt` - 필요한 패키지 목록
  
 ## 설치 방법
-
+ 
 1. 가상환경 생성 (권장):
 ```bash
 python -m venv venv
