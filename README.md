@@ -8,7 +8,7 @@
 - `openai_smith.py` - LangSmith 추적 기능이 포함된 예제
 - `ollama_default.py` - Ollama 로컬 모델 사용 예제
 - `requirements.txt` - 필요한 패키지 목록
-
+ 
 ## 설치 방법
 
 1. 가상환경 생성 (권장):
