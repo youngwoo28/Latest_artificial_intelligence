@@ -3,7 +3,7 @@
 이 프로젝트는 LangChain을 사용한 다양한 예제들을 포함합니다.
  
 ## 파일 구조
- 
+  
 - `openai_tool.py` - OpenAI Function Calling을 사용한 도구 선택 예제
 - `openai_smith.py` - LangSmith 추적 기능이 포함된 예제
 - `ollama_default.py` - Ollama 로컬 모델 사용 예제 
